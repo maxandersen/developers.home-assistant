@@ -5,7 +5,7 @@ sidebar_label: API
 
 This page will describe the steps required for your application to authorize against and integrate with Home Assistant instances. [See a demo](https://hass-auth-demo.glitch.me) powered by our helper lib [home-assistant-js-websocket](https://github.com/home-assistant/home-assistant-js-websocket).
 
-Each user has their own instance of Home Assistant which gives each user control over their own data. However, we also wanted to make it easy for third party developers to create applications that allow users to integrate with Home Assistant. To achieve this, we have adopted the [OAuth 2 specification][oauth2-spec] combined with the [OAuth 2 IndieAuth extension][indieauth-spec] for generating clients.
+Each user has their own instance of Home Assistant which gives each user control over their own data and access token on their profile page, i.e. https://hassio.local:8123/profile. However, we also wanted to make it easy for third party developers to create applications that allow users to integrate with Home Assistant. To achieve this, we have adopted the [OAuth 2 specification][oauth2-spec] combined with the [OAuth 2 IndieAuth extension][indieauth-spec] for generating clients.
 
 ## Clients
 
